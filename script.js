@@ -116,23 +116,42 @@ $(function () {
                     newDiv.append(backButton);
 
 
+
                     playButton.on("click", function () {
-                        video.get(0).play();
+                        video[0].play();
+                        video[0].playbackRate = 1;
                     });
 
                     pausaButton.on("click", function () {
-                        video.get(0).pause()
+                        video[0].pause()
                     });
 
                     stopButton.on("click", function () {
-                        video.get(0).load()
+                        video[0].load()
                     });
 
 
                     slowlyButton.on("click", function () {
-                        video.get(0).playbackRate = 5;
+                        video[0].playbackRate = 5;
                     });
 
+                    nextButton.on("click", function(){
+
+                        if(video[0].paused){
+                            console.log("paused");
+                            var frameTime = 1/24;
+                          video[0].currentTime = Math.min(video[0].duration, video[0].currentTime + frameTime);
+                        }
+                    });
+
+                    backButton.on("click", function(){
+
+                        if(video[0].paused){
+                            console.log("paused");
+                            var frameTime = 1/24;
+                            video[0].currentTime = Math.max(0, video[0].currentTime - frameTime);
+                        }
+                    })
 
 
                     newLi.append(newDiv);
