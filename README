@@ -1,6 +1,6 @@
 Zadanie polegające na stworzeniu prostego odtwarzacza.
 
-Na samej górze jest jeden input który szuka po title oraz description. Wyszukane elementy wyświetlane są w liście
+Elementy z json.server wyszukiwane są po title oraz description. Wyszukane elementy wyświetlane są w liście
 z przyciskiem "odtwórz film".
 Po kliknięciu "odtwórz film" - film jest uruchamiany. Dodane są kontrolki (play, pause oraz spowolnienie pod osobnym przyciskiem).
 
