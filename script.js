@@ -1,7 +1,7 @@
 $(function () {
     console.log("DOM");
 
-    var url = 'http://localhost:3000/movie';
+    var url = 'https://my-json-server.typicode.com/malgorzatakonkol/odtwarzacz/movie';
     var mainDiv = $(".container");
 
 
