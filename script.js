@@ -147,31 +147,7 @@ $(function () {
 
 
 
-            // openButton.on("click", test)
-                // function (test) {
-            //
-            //     console.log("too", movieUrl);
-            //
-            //     //
-            //     var playButton = $("<input class='play' type=button value='play'>");
-            //     var pausaButton = $("<input class='pausa' type=button value='pausa'>");
-            //     var slowlyButton = $("<input class='slowly' type=button value='slowly'>");
-            //
-            //     newDiv.append(playButton);
-            //     newDiv.append(pausaButton);
-            //     newDiv.append(slowlyButton);
-            //
-            //     newLi.append(newDiv);
-            //
-
-            // });
-
-
             ulElemen.append(newLi);
-
-
-            // ulElemen.append(video);
-
         }
     }
 
