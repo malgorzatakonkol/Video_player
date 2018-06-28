@@ -1,10 +1,85 @@
-/*.video {*/
-    /*width: 100px;*/
-    /*height: 100px;*/
-    /*color: black;*/
-/*}*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 
-/*.movie{*/
-    /*autostart: false;*/
+}
+body {
+    background-image: url("image/photo.jpg");
+    background-size: cover;
+}
+.container {
+    position: relative;
+    max-width: 1550px;
+    height: 100vh;
+    margin: 0 auto;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: rgba(255, 255, 255, 0.6);
 
-/*}*/
+}
+
+.description {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 50px;
+}
+
+.videoWindow {
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.find {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+button{
+    width: 120px;
+    height: 30px;
+    font-size: 0.8em;
+    background-color: #00FF00 ;
+    border-color: orangered;
+    padding: 5px 5px;
+    line-height: 1.42857143;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    align-content: center;
+    margin-right: 10px;
+    display: block;
+
+}
+
+.videoWindow {
+    display: inline-block;
+    width: 650px;
+    position: absolute;
+    left: 50%;
+    margin-left: -20%;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+span {
+    font-size: 20px;
+}
+
+.videoWindow > input {
+    width: 150px;
+    height: 50px;
+    font-size: 0.8em;
+    background-color: #00ff33;
+    padding: 5px 5px;
+    line-height: 1.42857143;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    align-content: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
