@@ -98,8 +98,8 @@ $(function () {
                             var pauseButton = $("<input class='pausa' type=button value='pause'>");
                             var stopButton = $("<input class='dtop' type=button value='stop'>");
                             var slowlyButton = $("<input class='slowly' type=button value='slowly'>");
-                            var nextButton = $("<input class='next' type=button value='jedną klatkę dalej'>");
-                            var backButton = $("<input class='back' type=button value='jedną klatkę wstecz'>");
+                            var nextButton = $("<input class='next' type=button value='one frame forward'>");
+                            var backButton = $("<input class='back' type=button value='one frame back'>");
 
 
                             newDiv.append(playButton);
