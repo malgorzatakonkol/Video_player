@@ -1,4 +1,4 @@
-#Odtwarzacz
+Odtwarzacz
 
 Zadanie polegające na stworzeniu prostego odtwarzacza.
 
@@ -8,7 +8,7 @@ Po kliknięciu "odtwórz film" - film jest uruchamiany. Dodane są kontrolki (pl
 Dodatkowe przyciski "jedna klatka dalej/wstecz" które na zatrzymanym video przenoszą o jedną
 klatkę dalej/wstecz  - zakładając że film ma 24 klatki na sekundę.
 
-###Link do repozytorium: https://malgorzatakonkol.github.io/odtwarzacz/#/
+Link do repozytorium: https://malgorzatakonkol.github.io/odtwarzacz/#/
 
-###Technologie:
+Technologie:
 HTML, CSS, JavaScript, jquery
