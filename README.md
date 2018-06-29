@@ -9,4 +9,7 @@ Additional buttons "one frame forward / back" which on stopped video they move b
 https://malgorzatakonkol.github.io/odtwarzacz/#/
 
 ### Technologies:
-HTML, CSS, JavaScript, jquery
+* HTML
+* CSS
+* JavaScript
+* jquery
