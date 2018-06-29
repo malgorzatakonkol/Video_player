@@ -127,7 +127,7 @@ $(function () {
 
 
                             slowlyButton.on("click", function () {
-                                videoDiv[0].playbackRate = 5;
+                                videoDiv[0].playbackRate = 0.5;
                             });
 
                             nextButton.on("click", function () {
