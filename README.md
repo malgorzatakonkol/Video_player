@@ -1,14 +1,12 @@
-Odtwarzacz
+# Video player
 
-Zadanie polegające na stworzeniu prostego odtwarzacza.
+### Description:
+The task of creating a simple player. Elements from json.server are searched based on title and description. The selected elements are shown in the list with the "play movie" button.
+After clicking "play movie" - the movie is started. The play, stop and slower buttons are added.
+Additional buttons "one frame forward / back" which on stopped video they move by one frame further / back - assuming that the movie has 24 frames per second.
 
-Elementy z json.server wyszukiwane są po title oraz description. Wyszukane elementy wyświetlane są w liście z przyciskiem "odtwórz film".
-Po kliknięciu "odtwórz film" - film jest uruchamiany. Dodane są kontrolki (play, pause oraz spowolnienie pod osobnym przyciskiem).
+### Link to the repository:
+https://malgorzatakonkol.github.io/odtwarzacz/#/
 
-Dodatkowe przyciski "jedna klatka dalej/wstecz" które na zatrzymanym video przenoszą o jedną
-klatkę dalej/wstecz  - zakładając że film ma 24 klatki na sekundę.
-
-Link do repozytorium: https://malgorzatakonkol.github.io/odtwarzacz/#/
-
-Technologie:
+### Technologies:
 HTML, CSS, JavaScript, jquery
