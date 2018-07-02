@@ -72,7 +72,7 @@ $(function () {
 
 
                 var openButton = $("<button>");
-                openButton.text("odtwórz film");
+                openButton.text("play video");
 
 
                 newLi.append(newh3n);
