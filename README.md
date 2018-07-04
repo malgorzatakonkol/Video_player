@@ -6,7 +6,7 @@ After clicking `play movie` - the movie is started. The `play`, `stop` and `slow
 Additional buttons `one frame forward / back` which on stopped video they move by one frame further / back - assuming that the movie has 24 frames per second.
 
 ### Link to the repository:
-https://malgorzatakonkol.github.io/Video_payer/#/
+https://malgorzatakonkol.github.io/Video_player/#/
 
 ### Technologies used:
 * HTML
